@@ -7,6 +7,7 @@
 <body>
 
   <h1>TCP SYN Flood Attack Masterclass: Unleash the Storm!</h1>
+  <h3>Work realised by: <b>Alaa Eddine Ayedi - 2GT2</b></h3>
 
   <h2>⚡️Description⚡️</h2>
   <p>This repository provides a hands-on experience of a TCP SYN flood attack, showcasing the potency of `hping3`. Witness the relentless storm of SYN packets unleashed upon `Metasploitable 2`, accompanied by real-time network traffic visualization using `Wireshark`. This knowledge is potent and should be wielded responsibly by ethical hackers with pure intentions.</p>
