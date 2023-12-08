@@ -35,6 +35,13 @@
     <li><strong>Open a terminal on Kali:</strong> Your command center for the chaos to come.</li>
     <li><strong>Execute the attack:</strong> Unleash a torrent of SYN packets with this command:
       <pre><code>sudo hping3 --count 1500 --data 120 --syn --flood -p 80 --rand-source &lt;target_IP&gt;</code></pre>(for example: 192.168.1.11)
+      <p>
+        --count is used to specify the number of SYN packets that we're willing to send <br>
+        --data is used to specify the packet size <br>
+        --syn to set SYN flag, and --flood to sent packets as fast as possible (Don't show replies) <br>
+        -p to specify the destination port (in our case it was an HTTP service so it's port 80) <br>
+        --rand-source to make sure that we're not using the IP address of our machine and we're staying anonymous
+      </p>
     </li>
   </ol>
 
