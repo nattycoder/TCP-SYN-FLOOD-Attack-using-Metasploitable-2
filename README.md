@@ -1,33 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TCP SYN Flood Attack Masterclass: Unleash the Storm!</title>
+</head>
+<body>
 
-TCP SYN Flood Attack Masterclass: Unleash the Storm!
-⚡️Description⚡️
-This repository takes you on a thrilling ride into the heart of a TCP SYN flood attack. Witness the power of hping3 as we unleash a relentless storm of SYN packets upon Metasploitable 2, bringing its defenses to their knees. All while captivating you with the real-time network traffic visualization through the magic of Wireshark. Be warned, this knowledge is powerful and should only be wielded by ethical hackers with pure intentions.
+  <h1>TCP SYN Flood Attack Masterclass: Unleash the Storm!</h1>
 
-⚔️Prerequisites⚔️
-Kali Linux: Your trusted weapon in the ethical hacking arsenal.
-Metasploitable 2: The unsuspecting victim of our digital assault.
-Wireshark: The all-seeing eye of the network.
-A thirst for knowledge and a passion for understanding the intricate world of network security.
-Setting the Stage
-Arm yourself: apt install hping3 on Kali to prepare for the attack.
-Summon the target: Boot up Metasploitable 2 and watch it tremble in anticipation.
-Establish communication: Verify network connectivity between Kali and Metasploitable using the ping command.
-Unveil the hidden world: Open Wireshark and prepare to be mesmerized by the impending digital storm.
-Unleashing the Storm
-Open a terminal on Kali: Your command center for the chaos to come.
-Execute the attack: Unleash a torrent of SYN packets with this command:
-hping3 -S --flood -d 127.0.0.1 -p 22 --rand-source 10.0.0.1-10.0.0.254 <target_IP>
-Witnessing the Devastation
-Observe the carnage: Watch Wireshark display the mesmerizing flood of SYN packets leaving your Kali machine.
-Feel the tremors: Witness Metasploitable's defenses crumble under the pressure of the attack.
-Savor the victory: Observe the disruption on Metasploitable's terminal, a testament to your mastery of the SYN flood technique.
-️Bringing the Storm to a Close️
-Stop the attack: Press Ctrl + C to cease the flow of SYN packets and let Metasploitable recover.
-Analyze the aftermath: Observe the network traffic in Wireshark and see how the storm subsides.
-Confirm the damage: Check Metasploitable's terminal to ensure its functionality has been restored.
-Further Exploration
-Delve deeper into the abyss: Explore the hping3 documentation to unlock its full potential.
-Expand your knowledge: Learn more about the TCP protocol and the inner workings of the SYN flood attack.
-Sharpen your skills: Practice safely in controlled environments to hone your ethical hacking skills.
-⚠️Disclaimer⚠️
-This knowledge is a powerful tool. Use it wisely and ethically to contribute to a more secure cyber world.
+  <h2>⚡️Description⚡️</h2>
+  <p>This repository provides a hands-on experience of a TCP SYN flood attack, showcasing the potency of hping3. Witness the relentless storm of SYN packets unleashed upon Metasploitable 2, accompanied by real-time network traffic visualization using Wireshark. This knowledge is potent and should be wielded responsibly by ethical hackers with pure intentions.</p>
+
+  <h2>⚔️Prerequisites⚔️</h2>
+  <ul>
+    <li><strong>Kali Linux:</strong> Your trusted weapon in the ethical hacking arsenal.</li>
+    <li><strong>Metasploitable 2:</strong> The unsuspecting victim of our digital assault.</li>
+    <li><strong>Wireshark:</strong> The all-seeing eye of the network.</li>
+    <li>A thirst for knowledge and a passion for understanding the intricate world of network security.</li>
+  </ul>
+
+  <h2>Setting the Stage</h2>
+  <ol>
+    <li><strong>Arm yourself:</strong> Install hping3 on Kali to prepare for the attack.
+      <pre><code>sudo apt install hping3</code></pre>
+    </li>
+    <li><strong>Summon the target:</strong> Boot up Metasploitable 2 and watch it tremble in anticipation.</li>
+    <li><strong>Establish communication:</strong> Verify network connectivity between Kali and Metasploitable using the ping command.</li>
+    <li><strong>Unveil the hidden world:</strong> Open Wireshark and prepare to be mesmerized by the impending digital storm.</li>
+  </ol>
+
+  <h2>Unleashing the Storm</h2>
+  <ol>
+    <li><strong>Open a terminal on Kali:</strong> Your command center for the chaos to come.</li>
+    <li><strong>Execute the attack:</strong> Unleash a torrent of SYN packets with this command:
+      <pre><code>hping3 -S --flood -d 127.0.0.1 -p 22 --rand-source 10.0.0.1-10.0.0.254 &lt;target_IP&gt;</code></pre>
+    </li>
+  </ol>
+
+  <h2>Witnessing the Devastation</h2>
+  <ol>
+    <li><strong>Observe the carnage:</strong> Watch Wireshark display the mesmerizing flood of SYN packets leaving your Kali machine.</li>
+    <li><strong>Feel the tremors:</strong> Witness Metasploitable's defenses crumble under the pressure of the attack.</li>
+    <li><strong>Savor the victory:</strong> Observe the disruption on Metasploitable's terminal, a testament to your mastery of the SYN flood technique.</li>
+  </ol>
+
+  <h2>️Bringing the Storm to a Close️</h2>
+  <ol>
+    <li><strong>Stop the attack:</strong> Press <code>Ctrl + C</code> to cease the flow of SYN packets and let Metasploitable recover.</li>
+    <li><strong>Analyze the aftermath:</strong> Observe the network traffic in Wireshark and see how the storm subsides.</li>
+    <li><strong>Confirm the damage:</strong> Check Metasploitable's terminal to ensure its functionality has been restored.</li>
+  </ol>
+
+  <h2>Further Exploration</h2>
+  <ul>
+    <li><strong>Delve deeper into the abyss:</strong> Explore the hping3 documentation to unlock its full potential.</li>
+    <li><strong>Expand your knowledge:</strong> Learn more about the TCP protocol and the inner workings of the SYN flood attack.</li>
+    <li><strong>Sharpen your skills:</strong> Practice safely in controlled environments to hone your ethical hacking skills.</li>
+  </ul>
+
+  <h2>⚠️Disclaimer⚠️</h2>
+  <p>This knowledge is a powerful tool. Use it wisely and ethically to contribute to a more secure cyber world.</p>
+
+</body>
+</html>
