@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TCP SYN Flood Attack Masterclass: Unleash the Storm!</title>
 </head>
 <body>
 
